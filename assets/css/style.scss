@@ -2,17 +2,17 @@
 Template name : TourX Pro - Travels Tourism Agency React Template
 Author : Egens Lab
 Version : 1.0
-Created : 
-Last update : 
+Created :
+Last update :
 ================= */
 
-/* CSS Index 
+/* CSS Index
 -----------------------------------
 1. Global CSS
 2. Reuseable Components Start
-3. Topbar area start 
-4. Navbar area start 
-5. Hero area start 
+3. Topbar area start
+4. Navbar area start
+5. Hero area start
 6. Package area start
 7. Destination area start
 8. Newslatter area start
@@ -539,7 +539,7 @@ accordion defult style
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   @keyframes loader {
     0%, 10%, 100% {
       width: 80px;
@@ -1004,8 +1004,8 @@ accordion defult style
   background: #162b32;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: smooth-header 0.65s linear;        
-  
+  animation: smooth-header 0.65s linear;
+
   @keyframes smooth-header {
       0%{
           transform: translateY(-30px);
@@ -1060,7 +1060,7 @@ accordion defult style
       transform: translateX(0);
     }
   }
- 
+
 
   .category-sidebar{
     background: #FFFFFF;
@@ -1070,14 +1070,14 @@ accordion defult style
     padding: 40px 30px;
     overflow-y: scroll;
     transition: all .6s cubic-bezier(.32,0,0,1);
- 
+
     // will added
     opacity: 0;
     visibility: hidden;
     transform: translateX(-100%);
 
 
-    
+
     &::-webkit-scrollbar-track {
       border-radius: 10px;
       background-color: #fff;
@@ -1159,7 +1159,7 @@ accordion defult style
         transition: all .3s;
       }
     }
-   
+
   }
 }
 
@@ -1169,7 +1169,7 @@ accordion defult style
   width: 100%;
   height: 100vh;
   top: 131px;
-  
+
   .sidebar-list {
     gap: 60px;
     li {
@@ -1199,7 +1199,7 @@ accordion defult style
 ==============================*/
 
 /* =============================
-    3. Topbar area start 
+    3. Topbar area start
 ==============================*/
 
 .topbar-style-one {
@@ -1236,7 +1236,6 @@ accordion defult style
       font-size: 17px;
       line-height: 20px;
       color: #ffffff;
-      background: #ff4838;
       padding: 13px 50px;
     }
   }
@@ -1296,7 +1295,6 @@ accordion defult style
       font-size: 17px;
       line-height: 20px;
       color: #ffffff;
-      background: #ff4838;
       padding: 13px 50px;
     }
   }
@@ -1331,7 +1329,7 @@ accordion defult style
 ==============================*/
 
 /* =============================
-    4. Navbar area start 
+    4. Navbar area start
 ==============================*/
 .inner-logo {
   padding-top: 40px;
@@ -1365,8 +1363,8 @@ accordion defult style
   background: rgba(25, 26, 28, 0.9);
   // transition: 0.2s ease;
   box-shadow: 5px 3px 40px rgba(0, 72, 88, 0.1);
-  animation: smooth-header 0.65s linear;        
-  
+  animation: smooth-header 0.65s linear;
+
   @keyframes smooth-header {
       0%{
           transform: translateY(-30px);
@@ -1520,7 +1518,7 @@ header .header-style-one {
             &:hover {
               background: #FF4838;
               color: #fff !important;
-          
+
 
               &::before {
                 opacity: 0;
@@ -1568,7 +1566,7 @@ header .header-style-one {
           margin-right: 0;
         }
         i{
-         
+
           font-size: 20px;
           width: 40px;
           height: 40px;
@@ -1588,7 +1586,7 @@ header .header-style-one {
       }
     }
   }
- 
+
 }
 
 
@@ -1602,8 +1600,8 @@ header .header-style-one {
   background: rgba(25, 26, 28, 0.9);
   // transition: 0.2s ease;
   box-shadow: 5px 3px 40px rgba(0, 72, 88, 0.1);
-  animation: smooth-header 0.65s linear;        
-  
+  animation: smooth-header 0.65s linear;
+
   @keyframes smooth-header {
       0%{
           transform: translateY(-30px);
@@ -1614,7 +1612,7 @@ header .header-style-one {
   }
 }
 header .header-style-two {
- 
+
   background: #162b32;
   .main-nav {
     ul {
@@ -1634,7 +1632,7 @@ header .header-style-two {
         transform-origin: top;
         transition: all 0.4s;
         box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.1);
-        
+
         li .sub-menu {
           right: -200px;
           left: inherit;
@@ -1843,7 +1841,7 @@ header .header-style-two {
         }
       }
     }
-    
+
 
     div{
       margin-right: 30px;
@@ -1879,7 +1877,7 @@ header .header-style-two {
       }
     }
 
-   
+
 
     .nav-right-hotline {
       padding-left: 44px;
@@ -1918,7 +1916,7 @@ header .header-style-two {
     }
   }
 }
-// 
+//
 
 /*header-style-three*/
 .header-style-three.sticky{
@@ -1929,8 +1927,8 @@ header .header-style-two {
     background: rgba(25, 26, 28, 0.9);
     // transition: 0.2s ease;
     box-shadow: 5px 3px 40px rgba(0, 72, 88, 0.1);
-    animation: smooth-header 0.65s linear;        
-    
+    animation: smooth-header 0.65s linear;
+
     @keyframes smooth-header {
         0%{
             transform: translateY(-30px);
@@ -1970,7 +1968,7 @@ header .header-style-three {
         transition: all 0.4s;
         box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.1);
         border-bottom: 1px solid var(--c-primary);
-        
+
         li .sub-menu {
           right: -200px;
           left: inherit;
@@ -2179,7 +2177,7 @@ header .header-style-three {
         }
       }
     }
-    
+
 
     div{
       margin-right: 10px;
@@ -2196,12 +2194,12 @@ header .header-style-three {
         border-radius: 50%;
         cursor: pointer;
         transition: all 0.5s ease-out 0s;
-  
+
         &:hover{
           border: 1px solid #FF4838;
           color: #FF4838;
           background: transparent;
-  
+
         }
       }
     }
@@ -2226,7 +2224,7 @@ header .header-style-three {
       }
     }
 
-   
+
 
     .nav-right-hotline {
       padding-left: 44px;
@@ -2277,8 +2275,8 @@ header .header-style-three {
   background: rgba(25, 26, 28, 0.9);
   // transition: 0.2s ease;
   box-shadow: 5px 3px 40px rgba(0, 72, 88, 0.1);
-  animation: smooth-header 0.65s linear;        
-  
+  animation: smooth-header 0.65s linear;
+
   @keyframes smooth-header {
       0%{
           transform: translateY(-30px);
@@ -2313,7 +2311,7 @@ header .header-style-four {
         transition: all 0.4s;
         box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.1);
         border-bottom: 1px solid var(--c-primary);
-        
+
         li .sub-menu {
           right: -200px;
           left: inherit;
@@ -2522,7 +2520,7 @@ header .header-style-four {
         }
       }
     }
-    
+
 
     div{
       margin-right: 10px;
@@ -2539,12 +2537,12 @@ header .header-style-four {
         border-radius: 50%;
         cursor: pointer;
         transition: all 0.5s ease-out 0s;
-  
+
         &:hover{
           border: 1px solid #FF4838;
           color: #FF4838;
           background: transparent;
-  
+
         }
       }
     }
@@ -2569,7 +2567,7 @@ header .header-style-four {
       }
     }
 
-   
+
 
     .nav-right-hotline {
       padding-left: 44px;
@@ -2617,7 +2615,7 @@ header .header-style-four {
   border-radius: 10px;
   padding: 20px 25px;
   position: relative;
-  
+
 
   .main-searchbar-close{
     position: absolute;
@@ -2730,13 +2728,13 @@ header .header-style-four {
   color: white;
 }
 
-// 
+//
 /* =============================
-     Navbar area end 
+     Navbar area end
 ==============================*/
 
 /* =============================
-    5. Hero area start 
+    5. Hero area start
 ==============================*/
 .hero-style-one {
   position: relative;
@@ -2756,7 +2754,7 @@ header .header-style-four {
     // background-position: bottom;
     // background-clip: text;
     // color: transparent;
-    
+
   // }
   .hero-pagination {
     position: absolute;
@@ -3119,7 +3117,7 @@ header .header-style-four {
           top: 50%;
           transform: translateY(-50%);
           left: 0px;
-          z-index: 1; 
+          z-index: 1;
         }
       }
       a{
@@ -3219,7 +3217,7 @@ header .header-style-four {
 .swiper-slide-active .banner3-btn {
     animation: zoomIn 2s;
 }
-  
+
 }
 
 // banner-4
@@ -3432,7 +3430,7 @@ header .header-style-four {
 .swiper-slide-active .banner3-btn {
     animation: zoomIn 2s;
 }
-  
+
 }
 
 .multi-main-searchber {
@@ -3664,7 +3662,7 @@ header .header-style-four {
           font-size: 16px;
           text-transform: capitalize;
           color: #2d373c;
-          
+
         }
       }
     }
@@ -3679,7 +3677,7 @@ header .header-style-four {
   overflow: hidden;
   position: relative;
   background: #fff;
-  
+
   &:hover {
     .package-card-body{
       &::before{
@@ -3689,7 +3687,7 @@ header .header-style-four {
 
       }
     }
-    
+
   }
 
   .package-thumb {
@@ -3777,7 +3775,7 @@ header .header-style-four {
           transition: all 0.3s;
           white-space: nowrap;
 
-          
+
 
           @include lg-down-device(){
             padding: 6px 10px;
@@ -3820,7 +3818,7 @@ header .header-style-four {
           font-size: 16px;
           text-transform: capitalize;
           color: #2d373c;
-          
+
         }
       }
     }
@@ -3835,7 +3833,7 @@ header .header-style-four {
   overflow: hidden;
   position: relative;
   background: #fff;
-  
+
   &:hover {
     .package-thumb{
       .card-lavel{
@@ -3852,7 +3850,7 @@ header .header-style-four {
 
       }
     }
-    
+
   }
 
   .package-thumb {
@@ -3941,7 +3939,7 @@ header .header-style-four {
           transition: all 0.3s;
           white-space: nowrap;
 
-          
+
 
           @include lg-down-device(){
             padding: 6px 10px;
@@ -3984,7 +3982,7 @@ header .header-style-four {
           font-size: 16px;
           text-transform: capitalize;
           color: #2d373c;
-          
+
         }
       }
     }
@@ -4100,7 +4098,7 @@ header .header-style-four {
           font-size: 16px;
           text-transform: capitalize;
           color: #2d373c;
-         
+
         }
       }
     }
@@ -4545,7 +4543,7 @@ header .header-style-four {
     .pd-top {
       .pd-single-info {
         display: flex;
-      
+
         .info-icon {
           margin-right: 15px;
           margin-top: 4px;
@@ -5415,7 +5413,7 @@ header .header-style-four {
         }
       }
     }
-    
+
   }
   &:hover{
     .destination-img{
@@ -5869,7 +5867,7 @@ header .header-style-four {
 
       .testimonial-bottom {
         .reviewer-info {
-         
+
           .reviewer-name {
             color: #ff4838;
           }
@@ -5999,7 +5997,7 @@ header .header-style-four {
         font-size: 16px;
         line-height: 30px;
         color: #666666;
-    
+
     }
     .testimonial-info{
       display: flex;
@@ -6007,7 +6005,7 @@ header .header-style-four {
       align-items: center;
       flex-wrap: wrap;
       gap: 5px;
-      
+
       .reviewr-info{
         padding-top: 20px;
       }
@@ -6128,7 +6126,7 @@ header .header-style-four {
       align-items: center;
       flex-wrap: wrap;
       gap: 5px;
-      
+
       // .reviewr-info{
       //   padding-top: 20px;
       // }
@@ -7222,7 +7220,7 @@ header .header-style-four {
         transition: .2s;
         margin-right: 20px;
         &:hover{
-          color: #ff4838; 
+          color: #ff4838;
         }
         i {
           color: #ff4838;
@@ -8263,14 +8261,14 @@ header .header-style-four {
   label {
       color: #fff;
       margin-bottom: 20px;
-      
+
   }
-  
+
  &.slide {
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
-} 
+}
   input {
   border: none;
   border-radius: unset;
@@ -8311,7 +8309,7 @@ header .header-style-four {
   font-size: 25px;
   cursor: pointer;
 }
-}  
+}
 
 /*=======================================
 3. search area end

@@ -2,16 +2,16 @@
 Template name : TourX Pro - Travels Tourism Agency React Template
 Author : Egens Lab
 Version : 1.0
-Created : 
-Last update : 
+Created :
+Last update :
 ================= */
-/* CSS Index 
+/* CSS Index
 -----------------------------------
 1. Global CSS
 2. Reuseable Components Start
-3. Topbar area start 
-4. Navbar area start 
-5. Hero area start 
+3. Topbar area start
+4. Navbar area start
+5. Hero area start
 6. Package area start
 7. Destination area start
 8. Newslatter area start
@@ -1071,7 +1071,7 @@ accordion defult style
    Reuseable Components end
 ==============================*/
 /* =============================
-    3. Topbar area start 
+    3. Topbar area start
 ==============================*/
 .topbar-style-one {
   background: #2d373c;
@@ -1101,8 +1101,8 @@ accordion defult style
   font-weight: 600;
   font-size: 17px;
   line-height: 20px;
-  color: #ffffff;
-  background: #ff4838;
+  color: #ffffff00;
+
   padding: 13px 50px;
 }
 .topbar-style-one .topbar-social-links {
@@ -1180,7 +1180,7 @@ accordion defult style
     Topbar area end
 ==============================*/
 /* =============================
-    4. Navbar area start 
+    4. Navbar area start
 ==============================*/
 .inner-logo {
   padding-top: 40px;
@@ -2336,10 +2336,10 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 /* =============================
-     Navbar area end 
+     Navbar area end
 ==============================*/
 /* =============================
-    5. Hero area start 
+    5. Hero area start
 ==============================*/
 .hero-style-one {
   position: relative;
