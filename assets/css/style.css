@@ -918,6 +918,16 @@ accordion defult style
   }
 }
 
+.header-title {
+    color: #ff4838;
+    font-weight: bold;
+}
+
+.header-title:hover {
+    color: #ff4838;
+    font-weight: bold;
+}
+
 .main-searchbar-wrapper {
   position: fixed;
   width: 100%;
