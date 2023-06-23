@@ -775,8 +775,12 @@ accordion defult style
   margin-bottom: unset;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 .breadcrumb-style-one {
-  background: url(../images/banner/breadcrumb-bg.png) no-repeat center;
+  background: url(../images/banner/tour-1-banner.jpeg) no-repeat center;
   background-size: cover;
   padding: 150px 0;
 }
@@ -6463,7 +6467,9 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
   padding-top: 15px;
 }
 .footer-area .footer-main-wrapper .footer-widget .footer-gallary-grid .footer-gallary-item img {
-  width: 100%;
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
   border-radius: 4px;
 }
 .footer-area .footer-contact-wrapper {
