@@ -6462,7 +6462,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 .footer-area .footer-main-wrapper .footer-widget .footer-gallary-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   padding-top: 15px;
 }

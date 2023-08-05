@@ -7597,9 +7597,10 @@ header .header-style-four {
 
       .footer-gallary-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
         padding-top: 15px;
+        justify-content: center;
 
         .footer-gallary-item {
           img {
